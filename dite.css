@@ -1,6 +1,22 @@
 textarea{
     border-block-color: black;
-    background-color: aqua;
-    height: 2em;
-    width: 15em;
+    height: 6rem;
+    width: 60%;
+    border-width: 2px;
+    background-color:lightgray;
+    
+}
+#output{
+    
+    border: 1px solid black;
+    height : 6rem;
+    width : 60%;
+    border-width:2px;
+    background-color: yellow;
+    
+}
+#primary_btn{
+    padding: 0.2rem 1rem;
+
+    
 }
