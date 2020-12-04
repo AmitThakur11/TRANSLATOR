@@ -1,5 +1,9 @@
 var trans_btn = document.querySelector("#primary_btn");
+var text = document.querySelector("#input_text");
 
-trans_btn.addEventListener("click",function btn_event(){
-    window.alert("hi you are right ")
-})
+function btn_event(){
+    console.log("input", text.value);
+    
+};
+
+trans_btn.addEventListener("click", btn_event);
