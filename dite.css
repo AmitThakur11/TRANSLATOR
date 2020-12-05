@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color:#FFC125;
+    --primary-color: #fbb034;
     /**#6C8E3F**/
     --dark-gray:#6B7280;
     --light-gray :#F3F4F6;
@@ -13,6 +13,8 @@ body{
     font-family: 'Cinzel', serif;
     align-content: center;
     background-image: url("/mxinixx.jpg") ;
+
+    margin:0px;
     
     
     
@@ -23,7 +25,7 @@ textarea{
     height: 7rem;
     width: 55%;
     border-width: 2px;
-    background-color:#f5e050;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,9 +36,14 @@ textarea{
     ruby-align: auto;
 }
 h1{
-    text-align: center;
+    text-align: left;
     padding:1rem 1rem;
+    margin:0px;
+    padding-bottom: 1.5rem;
     
+}
+h2{
+    color: solid black;
 }
 
 .content{
@@ -49,7 +56,7 @@ h1{
     height : 7rem;
     width : 55%;
     border-width:2px;
-    background-color: #f5e050;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -65,19 +72,23 @@ h1{
     margin-right: auto;
     border-radius: 1rem;
     font-size: medium;
-    background-color: #FFC125;
+    background-color:#F5D020;
 }
 .header{
+    padding-top:0rem;
     border-radius: 1rem;
-    background-color: #FFC125;
+    background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
     height:max-content;
+    
 
 }
 footer{
-    background-color: var(--primary-color);
+    
+    background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
     text-align: center;
     color:white;
-    border-top-right-radius: 1rem;
+    border-radius: 1rem;
+    margin: 0px;
 }
 .footer .link{
     color:white;
@@ -104,9 +115,12 @@ footer{
 
 .list-non-bullet{
     list-style : none;
+    padding-bottom: 1rem;
+    padding-top:1rem;
 }
 
 .list-item-inline{
     padding:0rem 0.5rem;
     display: inline;
 }
+
