@@ -12,20 +12,22 @@ body{
     display: block;
     font-family: 'Cinzel', serif;
     align-content: center;
-    background-image: url("/mxinixx.jpg") ;
+    background-image: url("/download.png");
+    background-repeat: repeat;
+    
 
-    margin:0px;
-    
-    
-    
+
 }
+ 
+    
+
 
 textarea{
     margin-top: 2rem;
     height: 7rem;
     width: 55%;
     border-width: 2px;
-    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    background-image: linear-gradient(315deg, #facc6b 0%, #fabc3c 74%);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +35,7 @@ textarea{
     font-size: large;
     border-width: 0.2rem;
     border-color: black;
-    ruby-align: auto;
+    
 }
 h1{
     text-align: left;
@@ -48,6 +50,8 @@ h2{
 
 .content{
     margin-left: 23%;
+    background-color: yellow;
+    margin-right: 60%
 }
     
 #output{
@@ -56,7 +60,7 @@ h2{
     height : 7rem;
     width : 55%;
     border-width:2px;
-    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    background-image: linear-gradient(315deg, #facc6b 0%, #fabc3c 74%);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -71,8 +75,8 @@ h2{
     margin-left: auto;
     margin-right: auto;
     border-radius: 1rem;
-    font-size: medium;
-    background-color:#F5D020;
+    font-size: medium;    
+    background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
 }
 .header{
     padding-top:0rem;
@@ -124,3 +128,4 @@ footer{
     display: inline;
 }
 
+background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
