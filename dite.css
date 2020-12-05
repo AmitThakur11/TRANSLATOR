@@ -1,32 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap');
 
+
+:root{
+    --primary-color:#FFC125;
+    /**#6C8E3F**/
+    --dark-gray:#6B7280;
+    --light-gray :#F3F4F6;
+}
+
 body{
     display: block;
     font-family: 'Cinzel', serif;
-    margin: 0px;
-
-  }
-textarea{
-    border-block-color: black;
-    height: 10rem;
-    width: 35%;
-    border-width: 2px;
-    background-color:lightgray;
-
-    margin: auto;
+    align-content: center;
+    background-image: url("/mxinixx.jpg") ;
+    
     
     
 }
+
+textarea{
+    margin-top: 2rem;
+    height: 7rem;
+    width: 55%;
+    border-width: 2px;
+    background-color:#f5e050;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cinzel', serif;
+    font-size: large;
+    border-width: 0.2rem;
+    border-color: black;
+    ruby-align: auto;
+}
+h1{
+    text-align: center;
+    padding:1rem 1rem;
+    
+}
+
+.content{
+    margin-left: 23%;
+}
+    
 #output{
     
     border: 1px solid black;
-    height : 10rem;
-    width : 35%;
+    height : 7rem;
+    width : 55%;
     border-width:2px;
-    background-color: yellow;
-
+    background-color: #f5e050;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    
 }
 
 #primary_btn{
-    padding: 0.2rem 1rem;
+    padding: 0.5rem 2rem;
+    font-family: 'Cinzel', serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    font-size: medium;
+    background-color: #FFC125;
+}
+.header{
+    border-radius: 1rem;
+    background-color: #FFC125;
+    height:max-content;
 
+}
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color : var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondary-link{
+    color : var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+}
+
+.list-non-bullet{
+    list-style : none;
+}
+
+.list-item-inline{
+    padding:0rem 0.5rem;
+    display: inline;
+}
