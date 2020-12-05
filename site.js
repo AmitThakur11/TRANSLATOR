@@ -4,7 +4,7 @@ var output_text = document.querySelector("#output")
 
 
 
-var serverUrl  = "https://api.funtranslations.com/translate/valspeak.json";
+var serverUrl  = "https://api.funtranslations.com/translate/minion.json";
 
 function error_handler(error){
     console.log("error occured",error);
